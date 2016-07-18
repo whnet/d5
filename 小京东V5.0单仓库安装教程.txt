@@ -1,0 +1,35 @@
+小京东v5.0
+  
+
+
+安装方式：
+
+1.解压上传压缩包文件到FTP目录下。
+
+  使用帝国还原 输入http://你的域名/diguo288   
+
+  帝国的帐户admin   密码:39035000  选择xjd5_20160519163841到恢复到您的数据库   
+
+2 使用phpmyadmin导入新建文件夹里面的xjd5jd.sql(使用此方法者请自行在数据库去掉官方后台,操作如下:在MYSQL数据库的数据表：shop_config中查找字段code值为 certi 的记录，其值为：http://service.shopex.cn/openapi/api.php ，修改为一个错误的网址!
+  
+  如：http://xxxxxxxxxx/openapi/api.php)  切记  切记!!!!!!!!!!!!!!!
+   
+  两种安装方法根据你熟悉的选择.
+
+3.数据库链接  找到data/config.php文件，mobile\supplier\data 修改如下配置
+
+  $db_name   = "您的当前库名";
+  $db_user   = "您的库所属用户";
+  $db_pass   = "密码";
+
+4.进入网站后台点右上角清除缓存按钮。 刷新前台页面，正常访问。
+  
+  后台   http://你的域名/admin/            admin 39035000qq
+
+5.如有问题请咨询客服。
+  
+  PHP版本选择5.3
+
+6.内部原代码，发现泄露，不在提供更新！
+
+

@@ -1,0 +1,10 @@
+'<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx32814d588c44c17c]]></appid>
+<mch_id><![CDATA[1246457301]]></mch_id>
+<nonce_str><![CDATA[DMrgqMjwopPxuaYX]]></nonce_str>
+<sign><![CDATA[F4B2AD030520E9C19974B4DAEF77950A]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201606121725565e74772c590827270217]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>'
